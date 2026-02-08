@@ -23,7 +23,7 @@ while True:
         c = int_prompt(' number of columns', 3, 9)
         r = int_prompt(' number of rows', 3, 9)
         if min(c, r) > 3:
-            v = int_prompt(' winning squence length', 3, min(c, r))
+            v = int_prompt(' winning sequence length', 3, min(c, r))
         else:
             v = 3
         print('\nDisplay the Y-axis?')
